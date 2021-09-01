@@ -3,6 +3,9 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
+/**
+ * @author Hiro
+ */
 public class Map {
     public static void main(String[] args) {
         /*以key大小排列*/

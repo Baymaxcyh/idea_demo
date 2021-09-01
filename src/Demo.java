@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * @author Hiro
+ */
 public class Demo {
     public static void main(String[] args){
         ArrayList list1 = new ArrayList();
@@ -29,7 +32,7 @@ public class Demo {
             Object obj = list1.get(i);
         }
 
-//        增强for  for(每个元素得数据类型 每个元素得别名:要遍历的列表)
+        /*增强for  for(每个元素得数据类型 每个元素得别名:要遍历的列表)*/
         for (Object obj : list1){
             System.out.println(obj);
         }
