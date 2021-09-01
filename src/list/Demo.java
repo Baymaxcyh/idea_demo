@@ -1,4 +1,7 @@
+package list;
+
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
@@ -42,11 +45,29 @@ public class Demo {
         list1.forEach(System.out::println);
 
 
-        LinkedList list2 = new LinkedList();
-        /*crud*/
-        list2.add("abc");
-        list2.add(1,"123");
+        /**
+         * 链表
+         */
+        LinkedList list = new LinkedList();
 
-        list2.get(1);
+        /**
+         * crud 增删改查
+         */
+        list.add("abc");
+        list.add("abc");
+        list.add("abc");
+        list.add(1, "123");
+
+        list.get(5);
+
+        for (int i = 0,size = list.size(); i < size; i++) {
+            list.get(i);
+        }
+        for (Object object : list) {
+        }
+        Iterator iterator = list.iterator();
+        iterator.hasNext();
+        iterator.next();
+        list.forEach(ele->{});
     }
 }

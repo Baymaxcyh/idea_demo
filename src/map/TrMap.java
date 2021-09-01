@@ -1,3 +1,4 @@
+package map;
 
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -6,10 +7,10 @@ import java.util.Map.Entry;
 /**
  * @author Hiro
  */
-public class Map {
+public class TrMap {
     public static void main(String[] args) {
         /*以key大小排列*/
-        TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+        java.util.TreeMap<Integer, String> map = new java.util.TreeMap<Integer, String>();
         map.put(3,"3");
         map.put(4,"3");
         map.put(13,"3");

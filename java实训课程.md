@@ -8,7 +8,7 @@
 
 ### 4.java类不支持多继承，属于单继承，但是接口可以多继承，类可以多重继承
 
-## Map
+## map.Map
 
 ### hashmap
 hash特性，将对象hash摘要特征值，运算出数组映射下标利用hash碰撞进行数据分组，降低map数据检索的成本
@@ -24,5 +24,7 @@ tree特性，将对象通过大小比较，在平衡二叉树中
 
 ### ConcurrentHashMap
 线程安全的map合集，数组中放入节点用synchronized修饰，防止多线程问题
+
+
 
 
