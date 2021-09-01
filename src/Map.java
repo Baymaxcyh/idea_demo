@@ -1,4 +1,3 @@
-package com.company;
 
 import java.util.SortedMap;
 import java.util.TreeMap;
