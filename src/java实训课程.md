@@ -10,21 +10,28 @@
 
 ## map.Map
 
-### hashmap
+### 1.hashmap
 hash特性，将对象hash摘要特征值，运算出数组映射下标利用hash碰撞进行数据分组，降低map数据检索的成本
 单一数据精准查找
 
-### treemap
+### 2.treemap
 tree特性，将对象通过大小比较，在平衡二叉树中
 最值获取，区间获取
 
-### linkedhashmap
+### 3.linkedhashmap
 整合了hash特征，link特征。
 在单一数据的精准查找的同时，提供了存储顺序的保留
 
-### ConcurrentHashMap
+### 4.ConcurrentHashMap
 线程安全的map合集，数组中放入节点用synchronized修饰，防止多线程问题
 
+## io流
+### 1.学习流程
+jdk1.8 接口 函数式接口，static 方法， default方法
+jdk1.8 stream 流失处理
+使用Stream 的处理方法，往往需要重写一个实现方法 可以使用箭头函数
+但是箭头函数的弊端，是每次都要重新写一份，加大维护修改成本，难以控制
+所以下一进阶 是 提取写好这些方法，或者集中写好方法，然后使用方法提取功能重复利用
 
-
+``数组转换集合， 集合转换数组``
 

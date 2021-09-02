@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 public class TrMap {
     public static void main(String[] args) {
         /*以key大小排列*/
-        java.util.TreeMap<Integer, String> map = new java.util.TreeMap<Integer, String>();
+        TreeMap<Integer, String> map = new TreeMap<Integer, String>();
         map.put(3,"3");
         map.put(4,"3");
         map.put(13,"3");
