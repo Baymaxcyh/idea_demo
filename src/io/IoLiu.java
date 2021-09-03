@@ -12,7 +12,7 @@ import javax.swing.filechooser.FileSystemView;
 import javax.swing.text.FieldView;
 /**
  * @author Hiro
- * Io
+ * Io流
  * */
 public class IoLiu {
     /**

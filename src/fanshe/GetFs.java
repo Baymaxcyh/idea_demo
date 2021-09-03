@@ -7,6 +7,9 @@ import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.Date;
 
+/**
+ * 獲取反射
+ */
 public class GetFs {
     public static void main(String[] args) {
         try {

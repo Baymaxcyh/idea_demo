@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /**
  * @author Hiro
- * wenjianliu
+ * 文件流
  */
 public class FilesIo {
     public static void main(String[] args) {

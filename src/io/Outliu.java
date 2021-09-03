@@ -7,6 +7,9 @@ import java.io.OutputStreamWriter;
 
 import javax.swing.filechooser.FileSystemView;
 
+/**
+ * 輸出流
+ */
 public class Outliu {
     public static void main(String[] args) {
         File home = FileSystemView.getFileSystemView().getHomeDirectory();

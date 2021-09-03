@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream;
 import javax.swing.filechooser.FileSystemView;
 
 /**
- * xiang liu
+ * 對象流
  */
 public class ObjLiu {
     public static void main(String[] args) {

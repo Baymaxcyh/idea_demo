@@ -13,7 +13,9 @@ import java.util.TimerTask;
 
 import javax.swing.filechooser.FileSystemView;
 
-
+/**
+ * 日志
+ */
 public class Logs {
 
     public static void main(String[] args) {

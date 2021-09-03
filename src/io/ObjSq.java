@@ -2,7 +2,9 @@ package io;
 
 import java.io.Serializable;
 
-//
+/**
+ * 序列化對象
+ */
 public class ObjSq implements Serializable{
     private String id;
     private String name;

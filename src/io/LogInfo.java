@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * zhiliu
+ * 日志信息
  */
 public class LogInfo {
     private Date date;
